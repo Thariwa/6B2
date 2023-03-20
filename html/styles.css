@@ -1,0 +1,23 @@
+.name{
+    background-color: cadetblue;
+}
+html > h2{
+    color: brown;
+}
+section h2{
+    color: fuchsia;
+    color: #50069b;
+    text-transform: uppercase;
+    color: blue;
+}
+
+p, h1{
+    text-decoration: underline;
+}
+
+p{
+    text-decoration: overline;
+}
+source + p{
+    color: tomato;
+}
