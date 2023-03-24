@@ -1,0 +1,46 @@
+section{
+    width:30vw;
+    height:30vh;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.japan{ 
+    border: 1px outset black;
+    background: radial-gradient(red 20%, white 20%, white 40%);
+
+}
+.garbon{
+    background: linear-gradient(180deg, green 30%, yellow 30%, yellow 60%, blue 60%);
+}
+.nigeria{
+    background: linear-gradient(90deg, green 33.3%, white 33.3%, white 66.6%, green 66.6%);
+}
+.france{
+    background: linear-gradient(90deg, blue 33.3%, white 33.3%, white 66.6%, red 66.6%);
+}
+.gambia{
+    background: linear-gradient(180deg, red 33.3%, white 33.3%, white 38.3%, blue 38.3%, blue 61.6%, white 61.6%, white 66.6%, green 66.6%);
+}
+.belgium{
+    background: linear-gradient(90deg, black 30%, yellow 30%, yellow 60%, red 60%);
+}
+.germany{
+    background: linear-gradient(180deg, black 30%, yellow 30%, yellow 60%, red 60%);
+}
+.africa{
+    border-top:10px ridge purple ;
+    border-bottom: 10px ridge purple;
+}
+.other{
+    border-left: 10px ridge purple;
+    border-right: 10px ridge purple;
+}
+body{
+    background-image: url(https://www.shutterstock.com/image-vector/abstract-waving-particle-technology-background-260nw-2128959116.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 30px center;
+    border: 5px solid black;
+    border-radius: 50%;
+}

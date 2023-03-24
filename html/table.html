@@ -6,7 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Timetable</title>
     <style>
-        table{border-collapse: collapse;}
+        table{
+            border: 2px solid;
+            width: 100%;
+        }
+        tr td{
+            padding: 1em;
+            background-color: green;
+            text-align: center;
+        }
+        th{
+            padding: 1em;
+            background-color: orange;
+            
+        }
     </style>
 </head>
 <body>
@@ -15,6 +28,7 @@
             <Caption>Food Timetable</Caption>
         <th>
             <tr>
+                <th> </th>
                 <th>Breakfast</th>
                 <th>Lunch</th>
                 <th>Dinner</th>
@@ -59,9 +73,9 @@
             </tr>
             <tr>
                 <th>Sunday</th>
-                <td>Rice</td>
-                <td>Rice</td>
-                <td>Rice</td>
+                <td colspan="3">Rice</td>
+                <!-- <td>Rice</td> -->
+                <!-- <td>Rice</td> -->
             </tr>
         </tbody>
         <tfoot>

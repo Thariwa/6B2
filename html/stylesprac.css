@@ -1,0 +1,23 @@
+section{
+    background-color: blue;
+    height: 30vh;
+    width: 30vw ;
+    margin: 5em auto;
+    border: 1em double green;
+}
+p{
+    padding: 2em;
+}
+section+section{
+    background: radial-gradient(red 25%,  blue 25%, blue 50%, yellow 50% yellow 50% )
+    
+}
+aside{
+    width: 50px;
+    height: 50vh;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Golden_star.svg/2140px-Golden_star.svg.png);
+    background-size: 55px;
+    background-repeat: repeat-x;
+    
+}
+
