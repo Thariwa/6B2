@@ -1,0 +1,29 @@
+ul{
+    list-style-type: none;
+}
+li{
+    width: 30%;
+    border: 2em double purple;
+    margin-bottom: 25px;
+    padding: 2.5rem;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(https://wallpaperaccess.com/full/1720356.jpg);
+}
+li:hover{
+    background: linear-gradient( violet 40%, yellow 50%, yellow 50%, violet 80% );
+    border-bottom: double;
+}
+
+main{
+    text-align: center;
+}
