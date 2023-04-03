@@ -1,13 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px 100px;
+    align-items: center;
+}
 ul{
     list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
 }
-li{
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://t4.ftcdn.net/jpg/04/53/63/07/360_F_453630770_N9UkWkDVZGC9AA91ohlKhdjDMMNhBQbU.jpg);
+    width: 100%;
+    color: white;
+
+}
+section >ul~li{
     width: 30%;
-    border: 2em double purple;
+    border: 2em double;
     margin-bottom: 25px;
     padding: 2.5rem;
-    
-    
 }
 a{
     text-decoration: none;
@@ -15,19 +37,19 @@ a{
 a:hover{
     text-decoration: underline;
 }
-body{
-    background-attachment: fixed;
-    background-image: url(https://wallpaperaccess.com/full/1720356.jpg);
-}
-li:hover{
+
+section>ul~li:hover{
     background: linear-gradient( violet 40%, yellow 50%, yellow 50%, violet 80% );
     border-bottom: double;
 }
 
 main{
-    margin: auto;
     width: 80%;
-    text-align: center;
 }
     
+
+
+
+
+
     
